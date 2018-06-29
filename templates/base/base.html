@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+{% block title %}
+	<title>
+	
+	Sitio web Hermilo
+	
+	</title>
+	{% endblock %}
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+<body>
+{% block content %}
+
+{% endblock %}
+</body>
+</html>

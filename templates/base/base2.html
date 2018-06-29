@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sitio Web Oficial Hermilo</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+<body>
+<h2>Curricullum Vitae</h2>
+
+{% block content %}
+
+{% endblock %}
+
+<img src="{{url_for('static',filename='img/foto1.jpg')}}">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">
+      More Information
+    </div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy and Terms</a></li>
+      <li><a href="#">User Agreement</a></li>
+    </ul>
+  </div>
+  <div class="mdl-mini-footer__right-section">
+    <button class="mdl-mini-footer__social-btn"></button>
+    <button class="mdl-mini-footer__social-btn"></button>
+    <button class="mdl-mini-footer__social-btn"></button>
+  </div>
+</body>
+</html>
